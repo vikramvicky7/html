@@ -1,0 +1,15 @@
+@keyframes yourAnimation{
+    0%{
+        transform: scale(.5) translateX(20px);
+        }
+    42%{
+        transform: scale(0.7);
+        }
+}
+
+.elementToAnimate{
+    animation: yourAnimation 3s infinite 0s ease;
+}
+
+   
+      

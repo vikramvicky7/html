@@ -1,0 +1,25 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        
+}
+
+h1 {
+    background-color:whitesmoke;    
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    background-color:rgb(223, 213, 201); 
+}
+@keyframes yourAnimation{
+    0%{
+        transform: scale(.5) translateX(20px);
+        }
+    42%{
+        transform: scale(0.7);
+        }
+}
+
+.elementToAnimate{
+    animation: yourAnimation 3s infinite 0s ease;
+}

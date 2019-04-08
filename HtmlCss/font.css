@@ -1,0 +1,18 @@
+
+
+body{
+    font-family: 'Pacifico', cursive;        
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    background-color:whitesmoke;    
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
