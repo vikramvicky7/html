@@ -1,0 +1,97 @@
+<%@ taglib prefix="tags" uri="WEB-INF/com.tld"%>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<style>
+		.bg {
+			font-family: 'Roboto Slab', serif;
+			background-image: url("images.jpg");
+
+
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+
+		h1 {
+			margin: 20px;
+			padding: 20px;
+			background-color: #faecf3;
+		}
+
+		button {
+			width: 40%;
+		}
+
+		container {
+
+			text-align: center;
+		}
+	</style>
+
+	<title>Home Page</title>
+
+</head>
+
+<body class="bg">
+
+	<tags:check-login />
+
+
+	<h1 class="display-5 text-center">Welcome to Home Page</h1>
+	<div class="form-row">
+		<div class="form-group col-md-6">
+			<img src="https://st2.depositphotos.com/1579454/10996/i/950/depositphotos_109968400-stock-photo-social-media-network-connecting-people.jpg"
+				id="download1" width="700" height="650" alt="image">
+		</div>
+		<div class="form-group col-md-6" style="text-align:center">
+			<br>
+			<a href="view_post.jsp"><button type="submit" style="background-color: #cd79a3" class="btn-lg">View
+					Post</button></a>
+			<br>
+			<br>
+			<br>
+			<a href="Add.jsp"><button type="submit" style="background-color: #BBBCFF" class="btn-lg">Add
+					Posts</button></a>
+			<br>
+			<br>
+			<br>
+			<a href="Delete.jsp"><button type="submit" style="background-color: #BBFFC5" class="btn-lg">Delete
+					Post</button></a>
+			<br>
+			<br>
+			<br>
+			<a href="Update.jsp"><button type="submit" style="background-color: #FBFFBB" class="btn-lg">Update
+					Post</button></a>
+			<br>
+			<br>
+			<br>
+			<a href="search.jsp"><button type="submit" style="background-color: #e87285" class="btn-lg">Search
+					Post</button></a>
+			<br>
+			<br>
+			<br>
+			<a href="login.jsp"><button type="submit" style="background-color: #b96c38"
+					class="btn-lg">Logout</button></a>
+		</div>
+	</div>
+</body>
+
+</html>
